@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  php_fpm:
+    image: stegeman/php:8.1-fpm-amqp-dev
+    volumes:
+      - ".:/app"

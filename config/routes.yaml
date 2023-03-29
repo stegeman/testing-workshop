@@ -1,0 +1,11 @@
+controllers:
+    resource:
+        path: ../src/Account/Infrastructure/Controller/
+        namespace: App\Account\Infrastructure\Controller
+    type: attribute
+
+account_create:
+    path: /account/create
+    methods: POST
+    controller: App\Account\Infrastructure\Controller\CreateAccountController::__invoke
+
